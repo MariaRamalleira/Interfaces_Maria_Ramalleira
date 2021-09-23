@@ -1,0 +1,60 @@
+
+#pregunta1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: blueviolet;
+}
+
+.celda2{
+ background-color: rgb(36, 87, 36);
+}
+
+.celda3{
+    background-color:rgb(116, 116, 23);
+   }
+
+.celda4{
+    background-color: rgb(61, 31, 31);
+}
+
+#pregunta2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: blueviolet;
+}
+
+#pregunta3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: blueviolet;
+}
+#pregunta4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: blueviolet;
+}
+#pregunta5{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: blueviolet;
+}
+#pregunta6{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: blueviolet;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+#fondo{
+    background-color: yellow;
+}
+
+.comentarios {    
+    font-style: italic;
+    border-style: dotted;
+    border-width: 1px;
+}
+
+#subrayado{
+    text-decoration: underline;
+}
+li > a{
+    background-color: rgb(9, 247, 215);
+}
