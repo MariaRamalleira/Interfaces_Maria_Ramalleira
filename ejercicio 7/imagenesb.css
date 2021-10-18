@@ -1,0 +1,16 @@
+#contenedor{
+    box-shadow: 10px 10px 5px black;
+    width: 12em;
+    height: 12em;
+    overflow: auto;
+}
+body{
+    background:white url("madrid.jpg") no-repeat center; 
+    background-attachment: fixed;
+    min-height: 2000px;				
+}
+
+#contenedor img{
+    width: 13em;
+    height: 13em
+}
