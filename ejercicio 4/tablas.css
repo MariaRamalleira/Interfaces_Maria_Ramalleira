@@ -1,0 +1,44 @@
+.tabla{
+    font: .9rem Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+table.tabla tr.cabecera th {
+    background: white url(imagenes/fondo_gris.gif) repeat-x;
+}
+.tabla tr{
+    height: 4em;
+    vertical-align: bottom;
+ }
+ 
+.tabla thead th{
+    text-align: center;
+}
+.tabla .euro{
+    background: url(imagenes/euro.png) no-repeat left top;
+}
+.tabla .dolar{
+    background: url(imagenes/dolar.png)no-repeat left top;
+}
+.tabla .libra {
+    background: url(imagenes/libra.png) no-repeat left top; 
+}
+  
+.tabla .yen {
+    background: url(imagenes/yen.png) no-repeat left top;
+}
+.tabla .simbolo {
+    padding: 0 .3em 0 1.2em;	
+    background-color: #d0e0f0 
+}
+.tabla th, td{
+      border: 1.5px solid black;
+      line-height: 2em;
+}
+tr:nth-of-type(odd){
+    background-color: #f0f0bc;
+}
+.tabla tr:hover td{
+    background: yellow;
+}
