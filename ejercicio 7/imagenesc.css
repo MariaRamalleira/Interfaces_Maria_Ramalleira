@@ -1,0 +1,12 @@
+#contenedor{
+    box-shadow: 10px 10px 5px black;	
+    background-image: url("logo.png");	
+    background-size: contain;
+    width: 12.5em;
+    height: 12.5em;
+    overflow: auto;				
+}
+            
+body{
+    background:white url("madrid.jpg") no-repeat top center;				
+}	
