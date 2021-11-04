@@ -1,0 +1,348 @@
+* {
+  background-color: wheat;
+  margin: 0%;
+}
+/* ########################################################################################## */
+#cabecera {
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div.nombre {
+  margin-left: 20px;
+  width: 110px;
+  color: red;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+div.iconos {
+  width: 125px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+span:first-child {
+  color: black;
+  align-self: flex-end;
+}
+.textoCabecera {
+  font-size: 20px;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+}
+/* ########################################################################################### */
+.contenedor1 {
+  background-color: rgb(233, 149, 40);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu {
+  background-color: rgb(233, 149, 40);
+  height: 50px;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+form {
+  margin-right: 4px;
+}
+.lupa {
+  background-color: white;
+}
+.menu:hover {
+  background-color: black;
+}
+/* ################################################################################################## */
+.contenedor2 {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: rgb(90, 88, 88);
+  width: 100%;
+  height: 348px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.imagen1 {
+  width: 35%;
+  background-image: url(evangelion.jpg);
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+p.arriba {
+  background-color: transparent;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 335px;
+  -webkit-text-fill-color: aqua;
+  -webkit-text-stroke: 0.5px black;
+  font-weight: bold;
+  margin: 10px;
+}
+p.abajo {
+  background-color: transparent;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  -webkit-text-fill-color: aqua;
+  -webkit-text-stroke: 0.5px black;
+  font-weight: bold;
+  align-self: flex-end;
+  margin: 10px;
+}
+.imagen2 {
+  width: 40%;
+  background-image: url(nezuko1.jpg);
+  background-position: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+.imagen2 > p {
+  width: 510px;
+  background-color: transparent;
+  align-self: flex-end;
+  margin-bottom: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  -webkit-text-fill-color: aqua;
+  -webkit-text-stroke: 0.5px black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.imagen3 {
+  width: 25%;
+  background-image: url(iroka.jpg);
+  background-position: 9px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+.imagen3 > p {
+  width: 230px;
+  background-color: transparent;
+  align-self: flex-end;
+  margin: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 0.5px white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+/* ############################################################################################# */
+.contenedor3 {
+  display: flex;
+  flex-direction: column;
+}
+.uno {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.dos {
+  width: 80%;
+  margin-left: 10px;
+}
+.titulo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+}
+.texto {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+div.flechas {
+  background-color: transparent;
+  align-self: center;
+  margin-right: 10px;
+}
+.caja1 {
+  background-color: white;
+  border: 1px solid black;
+  width: 90%;
+  margin-bottom: 20px;
+  height: 350px;
+}
+.conjunto {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.caja1titulo {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  margin-bottom: 2px;
+  font-family: cursive;
+  color: grey;
+}
+.linea {
+  background-color: transparent;
+  width: 60px;
+  height: 20px;
+}
+p.flechas {
+  background-color: transparent;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(233, 149, 40);
+  text-align: center;
+}
+p.flechas:hover {
+  color: red;
+}
+.caja1titulo > p {
+  background-color: transparent;
+}
+.figuras {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.textoF {
+  background-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.nendoroid1 {
+  width: 200px;
+  background-image: url(Eyjafjalla.jpg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.nendoroid1 > p {
+  position: relative;
+  top: 250px;
+}
+.nendoroid2 {
+  width: 200px;
+  background-image: url(naruto.jpg);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.nendoroid2 > p {
+  position: relative;
+  top: 250px;
+}
+.nendoroid3 {
+  width: 200px;
+  height: 250px;
+  background-image: url(d.va.jpg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.nendoroid3 > p {
+  position: relative;
+  top: 250px;
+}
+.nendoroid4 {
+  width: 200px;
+  background-image: url(joseph.jpg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.nendoroid4 > p {
+  position: relative;
+  top: 250px;
+}
+.caja2 {
+  width: 25%;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-right: 10px;
+  background-color: white;
+  height: 0%;
+}
+.categorias > p {
+  background-color: transparent;
+}
+.caja2 > div {
+  background-color: transparent;
+  height: 60px;
+  margin-left: 10px;
+}
+.categorias {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+.categorias p:nth-child(2) {
+  margin-bottom: 10px;
+  color: grey;
+}
+/* ############################################################################################ */
+.contenedor4 {
+  position:sticky;
+  bottom: 0px;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.contenedor4 > div {
+  background-color: transparent;
+  color: white;
+}
+.foot{
+width: 400px;
+height: 70px;
+background-color: transparent;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.foot:hover{
+  background-color: black;
+}
+.final {
+  background-color: transparent;
+}
+.final:hover{
+  background-color: white;
+}
+.u{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.foot1 {
+  text-align: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.foot1 > div {
+  background-color: transparent;
+}
+.a{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.inicio{
+  margin-right: 30px;
+  background-color: transparent;
+}
