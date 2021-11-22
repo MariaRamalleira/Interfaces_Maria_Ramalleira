@@ -109,13 +109,6 @@
   }
   @media only screen and (max-width: 768px) {
     .contenedor{
-      background-image: url(fondo2.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center ;
-      -webkit-text-stroke-color: black;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-fill-color: white;
       display: flex;
       flex-direction: row-reverse;
       justify-content: center;
@@ -144,8 +137,6 @@
     }
     div.lleno{
       margin-right: 0px;
-    }
-    div.lleno{
       font-size: 28px;
     }
     img{
