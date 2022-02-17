@@ -1,0 +1,15 @@
+.primero {
+	background-color: yellow; 
+}
+.segundo {
+	background-color: violet;	
+}
+.tercero {
+	background-color: orange; 
+}
+.cuarto {
+	background-color: green; 
+}
+.animacion{
+	display: none;
+}
