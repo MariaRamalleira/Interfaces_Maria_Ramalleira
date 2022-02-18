@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	var divs = document.querySelectorAll("div.animate");
 	var currentID = 0;
 	
-	// Los divs vuelven a permanecer ocultos y se reinicia la animación
+	// Los divs vuelven a permanecer ocultos y se reinicia la animaciÃ³n
 	function reiniciar(){	
 		divs.forEach((curDIV) => {
 			curDIV.style.display = "none";
@@ -11,11 +11,11 @@ document.addEventListener("DOMContentLoaded", () => {
 		aparecer();
 	}
 	
-	// Crea una promesa que muestra el botón actual que ahora recibe como parámetro
+	// Crea una promesa que muestra el botÃ³n actual que ahora recibe como parÃ¡metro
 	function mostrarUnDIV(contDIV){
 		let p1 = new Promise((resolve, reject) => {
 			currentID = setTimeout(() => {
-				divs[contDIV].style.display = "block"; // Por cada setTimeout mostramos el botón
+				divs[contDIV].style.display = "block"; // Por cada setTimeout mostramos el botÃ³n
 				resolve(currentID);						
 			}, 1000);			
 		});
@@ -24,18 +24,18 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	async function aparecer(){
-		// Con async y await se simplifica mucho el enfoque porque cada iteración espera a que acabe el setTimeout anterior
+		// Con async y await se simplifica mucho el enfoque porque cada iteraciÃ³n espera a que acabe el setTimeout anterior
 		for (let contDIV=0; contDIV<divs.length; contDIV++){		
 			currentID = await mostrarUnDIV(contDIV);			
 		}
 		
-		// En este punto sé que se han lanzado el resto de animaciones porque he esperado con "await"
+		// En este punto sÃ© que se han lanzado el resto de animaciones porque he esperado con "await"
 		currentID = setTimeout(reiniciar, 1000);		
 	}
 	
 	aparecer();
 		
-	// Se crea un evento onclick por cada párrafo que se encarga de parar detener todos los setTimeout que habían comenzado 
+	// Se crea un evento onclick por cada pÃ¡rrafo que se encarga de parar detener todos los setTimeout que habÃ­an comenzado 
 	divs.forEach((elem) => {
 		elem.addEventListener("click", () => {
 			clearTimeout(currentID);				
