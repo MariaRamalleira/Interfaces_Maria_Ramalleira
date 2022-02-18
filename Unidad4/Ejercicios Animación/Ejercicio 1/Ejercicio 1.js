@@ -23,15 +23,16 @@ document.addEventListener("DOMContentLoaded", () => {
 	aparecer();
 		
 	elementos.forEach((elem) => {
-		elem.addEventListener("click", () => {
-			
-			arrayID.forEach((curID) => {
+		elem.addEventListener("click", click);
+	});
+	
+	function click(){
+		arrayID.forEach((curID) => {
 				clearTimeout(curID);				
 			});
 			
 			reiniciar();
-		})
-	});
+	}
 
 			  
 });
