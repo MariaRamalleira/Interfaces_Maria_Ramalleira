@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #images {
+            height: 400px;
+            width: 400px;
+            background-position: left;	
+            background-repeat: no-repeat;
+            background-image: url("HTML5.png");
+            animation-duration: 8s;
+            animation-iteration-count: infinite;	
+            animation-name: Fotos;
+        }
+        
+        @keyframes Fotos {
+            from {background-image: url("HTML5.png")}
+        
+            25% {background-image: url("Javascript.png")}
+            
+            50% {background-image: url("CSS3.png")}
+            
+            75% {background-image: url("PHP.png")}
+            
+            to {background-image: url("HTML5.png");}
+        }
+        
+    </style>
+</head>
+<body>
+
+	<div id="images"></div>
+
+</body>
+</html>
